@@ -188,15 +188,9 @@ body {
 }
 
 .menu .task-item.active {
-  position: relative;
   background: #a3a3a3;
 }
 
-.menu .task-item.active::before {
-  content: " ";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  border-bottom: 1.5px solid #111;
-  width: 100%;
+.menu .task-item.active span {
+  text-decoration: line-through;
 }

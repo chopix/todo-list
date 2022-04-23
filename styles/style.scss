@@ -90,15 +90,9 @@ body {
       }
    }
    .task-item.active {
-      position: relative;
       background: rgb(163, 163, 163);
-      &::before {
-         content: " ";
-         position: absolute;
-         top: 50%;
-         left: 0;
-         border-bottom: 1.5px solid #111;
-         width: 100%;
+      span {
+         text-decoration: line-through;
       }
    }
 }
